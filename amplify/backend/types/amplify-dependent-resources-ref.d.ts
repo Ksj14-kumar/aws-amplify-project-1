@@ -1,6 +1,14 @@
 export type AmplifyDependentResourcesAttributes = {
+    "hosting": {
+        "S3AndCloudFront": {
+            "Region": "string",
+            "HostingBucketName": "string",
+            "WebsiteURL": "string",
+            "S3BucketSecureURL": "string"
+        }
+    },
     "auth": {
-        "amplifyproject1d60100b1": {
+        "amplifyproject1d2823519": {
             "IdentityPoolId": "string",
             "IdentityPoolName": "string",
             "UserPoolId": "string",
@@ -8,14 +16,6 @@ export type AmplifyDependentResourcesAttributes = {
             "UserPoolName": "string",
             "AppClientIDWeb": "string",
             "AppClientID": "string"
-        }
-    },
-    "hosting": {
-        "S3AndCloudFront": {
-            "Region": "string",
-            "HostingBucketName": "string",
-            "WebsiteURL": "string",
-            "S3BucketSecureURL": "string"
         }
     }
 }
